@@ -1,2 +1,7 @@
-Failures = {"ENGINE": 0, "BRAKE": 7, "TRANSMISSION": 2, "ABS": 5}
-
+def fonction(dic):
+    for status in dic:
+        if dic[status] == 0:
+            return False
+        else:
+            return True
+         
